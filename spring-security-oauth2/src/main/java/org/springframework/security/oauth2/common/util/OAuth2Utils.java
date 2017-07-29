@@ -73,6 +73,21 @@ public abstract class OAuth2Utils {
 	public static final String GRANT_TYPE = "grant_type";
 
 	/**
+	 * Constant to use while parsing and formatting parameter maps for OAuth2 requests
+	 */
+ 	public static final String CODE_CHALLENGE = "code_challenge";
+
+	/**
+  	 * Constant to use while parsing and formatting parameter maps for OAuth2 requests
+  	 */
+	public static final String CODE_CHALLENGE_METHOD = "code_challenge_method";
+
+	/**
+  	 * Constant to use while parsing and formatting parameter maps for OAuth2 requests
+  	 */
+	public static final String CODE_VERIFIER = "code_verifier";
+
+	/**
 	 * Parses a string parameter value into a set of strings.
 	 * 
 	 * @param values The values of the set.
